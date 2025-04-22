@@ -20,7 +20,7 @@
             bindings = <&bt BT_CLR>; // activate clear bluetooth bindings for current channel
         };
     };
-
+    &studio_unlock
     keymap {
         compatible = "zmk,keymap";
 
