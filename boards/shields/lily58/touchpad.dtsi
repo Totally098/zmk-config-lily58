@@ -1,8 +1,8 @@
 / {
     ps2_touchpad: ps2-touchpad {
         compatible = "zmk,ps2-mouse";
-        data-gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>;
-        clk-gpios  = <&gpio0 20 GPIO_ACTIVE_HIGH>;
+        data-gpios = <&gpio0 17 (GPIO_PULL_UP | GPIO_ACTIVE_HIGH)>;
+        clk-gpios  = <&gpio0 20 (GPIO_PULL_UP | GPIO_ACTIVE_HIGH)>;
         status = "okay";
     };
 
