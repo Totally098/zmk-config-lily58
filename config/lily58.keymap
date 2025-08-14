@@ -38,7 +38,6 @@
 &mt LCTRL ESC    &kp A   &kp S     &kp D      &kp F     &kp G                         &kp H   &kp J      &kp K     &kp L     &kp SEMI  &kp SQT
     &kp LSHFT    &kp Z   &kp X     &kp C      &kp V     &kp B  &kp LBKT     &kp RBKT  &kp N   &kp M      &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT
                                    &kp LALT   &kp LMETA &mo 2  &kp SPACE    &kp BSPC  &kp RET &mo 1      &kp RCTRL
-	&studio_unlock
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
