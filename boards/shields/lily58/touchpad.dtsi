@@ -7,7 +7,8 @@
     };
 
     ps2_mouse_listener {
-        compatible = "zmk,ps2-mouse-listener";
+        compatible = "zmk,ps2-mouse-listener-ps2";
         status = "okay";
+        device = <&mouse_ps2>;
     };
 };
